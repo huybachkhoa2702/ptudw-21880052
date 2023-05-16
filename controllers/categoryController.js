@@ -1,5 +1,5 @@
 let controller = {};
-let models = require('../models')
+let models = require('../models');
 let Category = models.Category;
 let Sequelize = require('sequelize');
 let Op = Sequelize.Op;

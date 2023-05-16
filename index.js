@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 
-//set public static folder: set index file
+////set public static folder: set index file
 app.use(express.static(__dirname + '/public'));
 
 //use view engine: express-handlebars
